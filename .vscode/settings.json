@@ -1,0 +1,81 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "editor.wordWrap": "on",
+    "editor.renderIndentGuides": false,
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.extensionOnImport": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.flake8Args": [
+        "--load-plugins",
+        "pylint_django",
+        "--disable-msg=C0111,F403,F405"
+    ],// 忽略的警告信息
+    "python.linting.pylintEnabled": false,
+    "files.defaultLanguage": "python", // ctrl+N新建文件后默认的语言
+    "editor.suggest.snippetsPreventQuickSuggestions": false, // clangd的snippets有很多的跳转点，不用这个就必须手动触发Intellisense了
+    "editor.acceptSuggestionOnEnter": "off", // 我个人的习惯，按回车时一定是真正的换行，只有tab才会接受Intellisense
+    "code-runner.runInTerminal": true, // 设置成false会在“输出”中输出，无法输入
+    "code-runner.executorMap": {
+        "python": "cd $dir && python -u $fileName"
+    }, // 右键run code时运行的命令；未注释的仅适用于PowerShell（Win10默认），文件名中有空格也可以编译运行；注释掉的适用于cmd（win7默认），PS和bash也能用，但文件名中有空格时无法运行
+    "code-runner.saveFileBeforeRun": true, // run code前保存
+    "code-runner.preserveFocus": true, // 若为false，run code后光标会聚焦到终端上。如果需要频繁输入数据可设为false
+    "code-runner.clearPreviousOutput": false, // 每次run code前清空属于code runner的终端消息，默认false
+    "code-runner.ignoreSelection": false, // 默认为false，效果是鼠标选中一块代码后可以单独执行，但C是编译型语言，不适合这样用
+    // 下面是topper的插入header配置
+    "topper.customTemplateParameters": [
+        {
+            "personalProfile": {
+                "author": "Suyi",
+                "website": "bulbasaur.github.bitbucket.yababbdadado.com",
+                "copyright": "None \n None",
+                "license": "None",
+                "email": "suyi067113@gmail.com"
+            }
+        },
+        {
+            "officeProfile": {
+                "author": "John Doe",
+                "department": "Product Development",
+                "email": "john.doe@doejohn.com"
+            }
+        }
+    ],
+    "topper.headerTemplates": [
+        {
+            "defaultCStyled": {
+                "headerBegin": "/**",
+                "headerPrefix": "*",
+                "headerEnd": "*/",
+                "template": [
+                    "${headerBegin}",
+                    "${headerPrefix} ${fileName}",
+                    "${headerPrefix} @author ${author}",
+                    "${headerPrefix} @description ${description}",
+                    "${headerPrefix} @created ${createdDate}",
+                    "${headerPrefix} @copyright ${copyright}",
+                    "${headerPrefix} @last-modified ${lastModifiedDate}",
+                    "${headerEnd}"
+                ]
+            }
+        },
+        {
+            "python": {
+                "headerBegin": "# -*- coding: utf-8 -*-",
+                "headerPrefix": "#",
+                "headerEnd": "#",
+                "template": [
+                    "${headerBegin}",
+                    "${headerPrefix} ${fileName}",
+                    "${headerPrefix} @author ${author}",
+                    "${headerPrefix} @email ${email}",
+                    "${headerPrefix} @description ${description}",
+                    "${headerPrefix} @created ${createdDate}",
+                    "${headerPrefix} @last-modified ${lastModifiedDate}",
+                    "${headerEnd}"
+                ]
+            }
+        }
+    ],
+}
