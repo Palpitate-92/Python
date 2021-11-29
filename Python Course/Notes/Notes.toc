@@ -1,0 +1,68 @@
+\contentsline {section}{\numberline {1}Python语言基础}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}type()}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}id()}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}x.real and x.imag}{1}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}eval()}{1}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}len()}{1}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}list,tup,dict and set}{2}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}常用系统函数}{2}{subsection.1.7}%
+\contentsline {subsubsection}{\numberline {1.7.1}math模块函数}{3}{subsubsection.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.7.2}cmath模块函数}{5}{subsubsection.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.7.3}random模块函数}{6}{subsubsection.1.7.3}%
+\contentsline {subsubsection}{\numberline {1.7.4}time模块函数}{7}{subsubsection.1.7.4}%
+\contentsline {subsubsection}{\numberline {1.7.5}calendar模块函数}{8}{subsubsection.1.7.5}%
+\contentsline {subsection}{\numberline {1.8}built-in function}{9}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.8.1}range()函数}{10}{subsubsection.1.8.1}%
+\contentsline {subsubsection}{\numberline {1.8.2}数值运算函数}{11}{subsubsection.1.8.2}%
+\contentsline {subsubsection}{\numberline {1.8.3}Python系统的帮助信息}{12}{subsubsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.9}基本运算}{13}{subsection.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}算术运算}{13}{subsubsection.1.9.1}%
+\contentsline {subsubsection}{\numberline {1.9.2}浮点数的计算误差}{14}{subsubsection.1.9.2}%
+\contentsline {subsubsection}{\numberline {1.9.3}数据类型的转换}{15}{subsubsection.1.9.3}%
+\contentsline {subsection}{\numberline {1.10}位运算}{16}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}按位与运算}{16}{subsubsection.1.10.1}%
+\contentsline {subsubsection}{\numberline {1.10.2}按位或运算}{17}{subsubsection.1.10.2}%
+\contentsline {subsubsection}{\numberline {1.10.3}按位异或运算}{17}{subsubsection.1.10.3}%
+\contentsline {subsubsection}{\numberline {1.10.4}按位取反运算}{18}{subsubsection.1.10.4}%
+\contentsline {subsubsection}{\numberline {1.10.5}左移运算}{18}{subsubsection.1.10.5}%
+\contentsline {subsubsection}{\numberline {1.10.6}右移运算}{18}{subsubsection.1.10.6}%
+\contentsline {section}{\numberline {2}顺序结构}{20}{section.2}%
+\contentsline {subsection}{\numberline {2.1}lambda()}{20}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Python语句行与注释}{20}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}赋值语句}{21}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}复合赋值语句}{21}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}链式赋值}{21}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}同步赋值}{22}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}标准输入}{23}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}标准输出}{24}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}格式化输出}{25}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}字符串格式化运算符\%}{26}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}format()内置函数}{28}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}字符串的format()方法}{29}{subsubsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.7}顺序结构程序举例}{32}{subsection.2.7}%
+\contentsline {section}{\numberline {3}选择结构}{34}{section.3}%
+\contentsline {subsection}{\numberline {3.1}条件的描述}{34}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}关系运算}{34}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}逻辑运算}{34}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}测试运算}{35}{subsubsection.3.1.3}%
+\contentsline {paragraph}{1.成员测试}{35}{section*.2}%
+\contentsline {paragraph}{2.身份测试}{35}{section*.3}%
+\contentsline {subsection}{\numberline {3.2}选择结构的实现}{36}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}单分支选择结构}{36}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}双分支选择结构}{37}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}多分支选择结构}{38}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}选择结构的嵌套}{39}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}条件运算}{40}{subsection.3.3}%
+\contentsline {section}{\numberline {4}循环结构}{41}{section.4}%
+\contentsline {subsection}{\numberline {4.1}while循环结构}{41}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}While语句的一般格式}{41}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}在while语句中使用else子句}{41}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}while循环的应用}{42}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}for循环结构}{43}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}for语句的一般格式}{43}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}range对象在for循环中的应用}{46}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}循环控制语句}{47}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}break语句}{47}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}continue语句}{47}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}pass语句}{47}{subsubsection.4.3.3}%
+\contentsline {subparagraph}{subparagraph标题}{48}{section*.4}%
